@@ -1,0 +1,29 @@
+{
+  "name": "cypress-e2e",
+  "version": "1.0.0",
+  "description": "end-to-end testing with Cypress",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuisHMen/Cypress-Examples-Exercises.git"
+  },
+  "keywords": [
+    "cypress",
+    "e2e"
+  ],
+  "author": "Luis H. Men",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuisHMen/Cypress-Examples-Exercises/issues"
+  },
+  "homepage": "https://github.com/LuisHMen/Cypress-Examples-Exercises#readme",
+
+  "dependencies": {
+    "cypress": "^10.3.0",
+    "prettier": "^2.7.1"
+  }
+}
