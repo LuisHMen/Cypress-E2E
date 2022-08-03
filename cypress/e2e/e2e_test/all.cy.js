@@ -1,0 +1,5 @@
+import './forgotPassword.cy'
+import './search.cy'
+import './feedback.cy'
+import './navbar.cy'
+import './login-logout.cy'
