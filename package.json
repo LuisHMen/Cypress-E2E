@@ -4,8 +4,10 @@
   "description": "end-to-end testing with Cypress",
   "main": "index.js",
   "scripts": {
-    "cy:open": "cypress open",
-    "cy:run": "cypress run"
+    "test": "cypress-run-all",
+    "cych": "cypress open --browser chrome --e2e",
+    "cyed": "cypress open --browser edge --e2e",
+    "cyel": "cypress open --browser electron --e2e"
   },
   "repository": {
     "type": "git",
@@ -18,11 +20,12 @@
   "author": "Luis H. Men",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/LuisHMen/Cypress-Examples-Exercises/issues"
+    "url": "https://github.com/LuisHMen/Cypress-E2E.git"
   },
-  "homepage": "https://github.com/LuisHMen/Cypress-Examples-Exercises#readme",
+  "homepage": "https://github.com/LuisHMen/Cypress-E2E#readme",
   "dependencies": {
-    "cypress": "^10.3.0",
+    "cypress": "^12.16.0",
+    "cypress-iframe": "^1.0.1",
     "cypress-mochawesome-reporter": "^3.2.0",
     "prettier": "^2.7.1",
     "typescript": "^4.7.4"
