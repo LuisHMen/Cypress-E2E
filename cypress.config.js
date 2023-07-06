@@ -7,6 +7,15 @@ module.exports = defineConfig({
     },
     "defaultCommandTimeout": 10000,
     "video": false,
-    "reporter": "cypress-mochawesome-reporter"
+    "reporter": "cypress-mochawesome-reporter",
+
+    chromeWebSecurity: false,
+    testIsolation: false
+    
+    // Des-comentar en caso de usar
+
+    //baseUrl: 
+    //specPattern: "cypress/e2e/features/*.feature",
+    //pageLoadTimeout: 10000
   },
 });
