@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/LuisHMen/Cypress-E2E#readme",
   "dependencies": {
-    "cypress": "^12.17.0",
+    "cypress": "^12.17.3",
     "cypress-iframe": "^1.0.1",
     "cypress-mochawesome-reporter": "^3.2.0",
     "prettier": "^2.7.1",
