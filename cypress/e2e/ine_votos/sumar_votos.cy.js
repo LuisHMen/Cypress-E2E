@@ -5,7 +5,7 @@ context('Obtener el nombre del representante del partido, el nombre del partido 
         before(function () {
             cy.visit('https://prep2023-tamps.ine.mx/senadurias/nacional/circunscripcion2/tamaulipas/votos-candidatura/grafica')
             
-            // * DES COMENTAR LA LÍNEA 11 SI ES LA PRIEMRA VEZ QUE SE EJECUTA
+            // * DES COMENTAR LA LÍNEA 11 SI ES LA PRIMERA VEZ QUE SE EJECUTA
             // * COMENTAR ESTA LÍNEA DESPUÉS DE EJECUTAR UNA VEZ
 
             //cy.get('.btn-inicio').contains('Consulta Resultados Preliminares').click()
