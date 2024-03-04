@@ -13,6 +13,6 @@ function rotLeft(a, d) {
     return rotArray;
 }
 
-console.log(rotLeft([1, 2, 3, 4, 5, 6, 7], 5));
+console.log(rotLeft([1, 2, 3, 4, 5, 6, 7], 2));
 
 console.log('operando: ' + 4 % 5);

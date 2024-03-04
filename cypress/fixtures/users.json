@@ -1,4 +1,13 @@
 {
   "user": "username",
-  "pwd": "password"
+  "pwd": "password",
+  
+  "bank_username": "Customers",
+  "customers": [
+    "Hermoine Granger",
+    "Harry Poter",
+    "Ron Weasly",
+    "Albus Dumbledore",
+    "Neville Longbottom"
+  ]
 }
